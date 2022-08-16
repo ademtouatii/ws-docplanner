@@ -1,0 +1,116 @@
+.lead h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+h1{
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.grid {
+    margin: 0 -10px;
+    box-sizing: inherit;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+
+.services {
+    margin: 3.75rem auto 2.5rem;
+}
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section__inner:before {
+    content: "";
+    display: table;
+}
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.countries-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.country{
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+
+.country img{
+    width: 309px;
+    border-radius: 2%;
+}
+
+.country div{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.country div button{
+    width: 105px;
+    height: 30px;
+    font-size: x-small;
+}
+
+.country div p{
+    margin-top: 15px;
+}
+
+.country:hover{
+    box-shadow: 0 4px 15px 0 gray;
+}
